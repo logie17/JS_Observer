@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Example 1</title>
+        <script type="text/javascript" src="js_observer.js"></script>
+    </head>
+    <body>
+        <script>
+            var Observed = function(){
+                JSObserver.init(this);    
+            }
+
+            var Observer = function(){
+                function notify(){
+                    alert('here');
+                }
+            }
+
+            var observer1 = new Observer();
+            var observer2 = new Observer();
+
+            Observed.bind(
+        </script>
+    </body>
+</html>
